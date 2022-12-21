@@ -22,6 +22,10 @@ library("LMWiRe")
 [![R-CMD-check](https://github.com/ManonMartin/LMWiRe/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/ManonMartin/LMWiRe/actions/workflows/check-standard.yaml)
 <!-- badges: end -->
 
+# Disclaimer /!\ 
+
+This package has been renamed as limpca (manonmartin.github.io/limpca/). LMWiRe is no further maintained nor improved.
+
 # Installation
 
 ```{r, eval=FALSE}
