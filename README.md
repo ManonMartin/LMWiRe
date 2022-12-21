@@ -6,7 +6,11 @@ LMWiRe quickstart
 [![R-CMD-check](https://github.com/ManonMartin/LMWiRe/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/ManonMartin/LMWiRe/actions/workflows/check-standard.yaml)
 <!-- badges: end -->
 
+<<<<<<< HEAD
 # Disclaimer /!\\
+=======
+# Disclaimer /! 
+>>>>>>> 7679212 (disclaimer)
 
 This package has been renamed as limpca (manonmartin.github.io/limpca/).
 LMWiRe is no further maintained nor improved.
@@ -113,15 +117,38 @@ resEM$varPercentagesPlot
 # Bootstrap tests
 resBT = lmwBootstrapTests(resLmwEffectMatrices = resEM, nboot=100)
 resBT$resultsTable
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#>                       Hippurate Citrate  Time     Hippurate:Citrate
+#> Bootstrap p-values    "< 0.01"  "< 0.01" "< 0.01" "0.16"           
+#> % of variance (T III) "39.31"   "29.91"  "16.24"  "1.54"           
+#>                       Hippurate:Time Citrate:Time Hippurate:Citrate:Time
+#> Bootstrap p-values    "< 0.01"       "0.42"       "0.08"                
+#> % of variance (T III) "6.23"         "0.54"       "1.68"                
+#>                       Residuals
+#> Bootstrap p-values    "-"      
+#> % of variance (T III) "4.3"
+=======
+>>>>>>> 7679212 (disclaimer)
 #>                        % of variance (T III) Bootstrap p-values
 #> Hippurate                              39.31             < 0.01
 #> Citrate                                29.91             < 0.01
 #> Time                                   16.24             < 0.01
+<<<<<<< HEAD
 #> Hippurate:Citrate                       1.54               0.09
 #> Hippurate:Time                          6.23             < 0.01
 #> Citrate:Time                            0.54               0.41
 #> Hippurate:Citrate:Time                  1.68                0.1
 #> Residuals                               4.30                  -
+=======
+#> Hippurate:Citrate                       1.54                0.2
+#> Hippurate:Time                          6.23             < 0.01
+#> Citrate:Time                            0.54                0.3
+#> Hippurate:Citrate:Time                  1.68               0.06
+#> Residuals                               4.30                  -
+>>>>>>> cac8d92 (disclaimer)
+>>>>>>> 7679212 (disclaimer)
 ```
 
 ## ASCA-E decomposition
