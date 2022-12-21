@@ -6,6 +6,11 @@ LMWiRe quickstart
 [![R-CMD-check](https://github.com/ManonMartin/LMWiRe/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/ManonMartin/LMWiRe/actions/workflows/check-standard.yaml)
 <!-- badges: end -->
 
+# Disclaimer /! 
+
+This package has been renamed as limpca (manonmartin.github.io/limpca/).
+LMWiRe is no further maintained nor improved.
+
 # Installation
 
 ``` r
@@ -112,9 +117,9 @@ resBT$resultsTable
 #> Hippurate                              39.31             < 0.01
 #> Citrate                                29.91             < 0.01
 #> Time                                   16.24             < 0.01
-#> Hippurate:Citrate                       1.54               0.14
+#> Hippurate:Citrate                       1.54                0.2
 #> Hippurate:Time                          6.23             < 0.01
-#> Citrate:Time                            0.54               0.48
+#> Citrate:Time                            0.54                0.3
 #> Hippurate:Citrate:Time                  1.68               0.06
 #> Residuals                               4.30                  -
 ```
